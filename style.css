@@ -25,13 +25,12 @@ nav {
     background-image: 
         linear-gradient(to bottom,rgba(0,0,0,0.25),rgba(0,0,0,0.25)),
     
-    url('background.jpeg');
+    url('collage.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
     color: white;
-
 
 }
