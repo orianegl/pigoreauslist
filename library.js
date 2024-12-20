@@ -22,8 +22,12 @@ async function parseCSV() {
         row[headers[j]] = rowValues[j].replaceAll('"','');
       }
 
-      rawData.push(row);
+      //if (row.AUTHOR !== "" && row.TRANSLATOR !== "" && row.PUBLICATION !=="") {
+        rawData.push(row);
+      //}
     }
+
+    console.log(rawData.length);
 
     const listContainer = document.getElementById('list');
 
