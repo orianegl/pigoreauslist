@@ -15,9 +15,13 @@ nav {
     text-align: right;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #666666;
+    
     word-spacing: 0.2pc;
 }
+
+nav a {
+    color: #666;
+}   
 
 #description {
     height: 80vh;
