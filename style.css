@@ -19,9 +19,30 @@ nav {
     word-spacing: 0.2pc;
 }
 
-nav a {
-    color: #666;
+a:link {
+    color: #393a31;
 }   
+
+a:visited {
+    color: #c79469;
+} 
+
+a:hover,
+a:focus {
+    color: #848a86;
+} 
+
+a:active {
+    color: orange;
+} 
+
+nav a{ 
+color:#666666 !important;
+} 
+
+nav a:hover { 
+    color: #848a86!important;
+    } 
 
 #description {
     height: 80vh;
